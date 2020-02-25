@@ -1,6 +1,8 @@
 # Food Search App
 
-**Search for businesses near to you, usign Yelp API**
+**Search for businesses near to you, using [Yelp API](https://yelp.com/fusion).**
+
+![version](https://img.shields.io/badge/version-1.0.0-green)
 
 <img alt="FoodApp" title="#delicinha" src=".github/Mockup.png" width="300px" />
 
