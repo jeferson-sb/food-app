@@ -11,14 +11,15 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f4511e"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "package": "com.jefersonsb.food"
+      "package": "com.jefersonsb.food",
+      "versionCode": 1
     },
     "ios": {
       "supportsTablet": true,
