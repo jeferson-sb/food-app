@@ -4,6 +4,6 @@ import { YELP_API_KEY } from 'react-native-dotenv';
 export default axios.create({
   baseURL: 'https://api.yelp.com/v3',
   headers: {
-    Authorization: `Bearer ${YELP_API_KEY}`
-  }
+    Authorization: `Bearer ${YELP_API_KEY}`,
+  },
 });

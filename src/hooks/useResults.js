@@ -1,14 +1,17 @@
 import { useEffect, useState } from 'react';
 import {
   requestPermissionsAsync,
-  getCurrentPositionAsync
+  getCurrentPositionAsync,
 } from 'expo-location';
 import Yelp from '../api/yelp';
 
 export default () => {
   const [results, setResults] = useState([]);
   const [errorMsg, setErrorMsg] = useState('');
-  const [currentLocation, setCurrentLocation] = useState(null);
+  const [currentLocation, setCurrentLocation] = useState({
+    latitude: null,
+    longitude: null,
+  });
 
   async function loadInitialPosition() {
     try {
@@ -16,15 +19,15 @@ export default () => {
 
       if (granted) {
         const { coords } = await getCurrentPositionAsync({
-          enableHighAccuracy: true
+          enableHighAccuracy: true,
         });
         const { latitude, longitude } = coords;
 
-        setCurrentLocation({
+        await setCurrentLocation({
           latitude,
           longitude,
           latitudeDelta: 0.04,
-          longitudeDelta: 0.04
+          longitudeDelta: 0.04,
         });
       }
     } catch {
@@ -41,11 +44,12 @@ export default () => {
           limit: 50,
           term: searchTerm,
           latitude: currentLocation.latitude,
-          longitude: currentLocation.longitude
-        }
+          longitude: currentLocation.longitude,
+        },
       });
       const { businesses } = response.data;
       setResults(businesses);
+      setErrorMsg(null);
     } catch (error) {
       console.log(error);
       setErrorMsg(`Could not search for ${searchTerm} on Yelp`);
@@ -53,7 +57,11 @@ export default () => {
   }
 
   useEffect(() => {
-    loadInitialPosition().then(() => searchBusiness('Pizza'));
+    async function getResults() {
+      await loadInitialPosition();
+      await searchBusiness('Pizza');
+    }
+    getResults();
   }, []);
 
   return [searchBusiness, results, errorMsg];

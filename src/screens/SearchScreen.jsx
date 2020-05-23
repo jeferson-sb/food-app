@@ -9,8 +9,8 @@ export default function SearchScreen() {
   const [term, setTerm] = useState('');
   const [searchBusiness, results, errorMsg] = useResults();
 
-  const filterResultsByPrice = price => {
-    return results.filter(result => result.price === price);
+  const filterResultsByPrice = (price) => {
+    return results.filter((result) => result.price === price);
   };
 
   return (
@@ -65,14 +65,14 @@ const styles = StyleSheet.create({
   container: {
     marginTop: 4,
     marginHorizontal: 15,
-    flex: 1
+    flex: 1,
   },
   message: {
     marginBottom: 10,
-    color: '#a7a7a7'
+    color: '#a7a7a7',
   },
   title: {
     fontSize: 19,
-    marginBottom: 10
-  }
+    marginBottom: 10,
+  },
 });
