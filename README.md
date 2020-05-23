@@ -2,13 +2,13 @@
 
 Search for businesses near to you, using [Yelp API](https://yelp.com/fusion).
 
-![version](https://img.shields.io/badge/version-1.0.0-green)
+![alt release](https://img.shields.io/github/v/release/jeferson-sb/food-app?style=flat-square)
 
 <img alt="FoodApp" title="#delicinha" src=".github/Mockup.png" width="300px" />
 
 ## 📱 Demo
 
-[https://github.com/jeferson-sb/food-app/releases/tag/1.0.0](https://github.com/jeferson-sb/food-app/releases/tag/1.0.0)
+[Download for Android](https://github.com/jeferson-sb/food-app/releases/latest)
 
 ## 🚀 Quick Start
 
