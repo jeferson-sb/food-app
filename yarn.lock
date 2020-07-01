@@ -1214,10 +1214,10 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.6.tgz#c7f2ac187c1f25aa8c30d11baa8f4398eca3bb84"
   integrity sha512-PpMoeXwPUoldCRKDuSi+zK5rT+sJTW6ri6RdGPkSKRzU77Q1d9IaR0O5IKvBj0XSdL3p+dcOa05gk35aGDffBQ==
 
-"@react-navigation/compat@^5.0.7":
-  version "5.1.24"
-  resolved "https://registry.yarnpkg.com/@react-navigation/compat/-/compat-5.1.24.tgz#3343f3fa0153d9c35a77bf87e1b01d003bc7f31a"
-  integrity sha512-QxLd+/s0PrFlljLwGJpgj0EkvXE/QL4neKPzyMa8pB+c6G+SIqj8gYnJ1quD5JemcK6IYPEb02Yt2Q1EkpPkPQ==
+"@react-navigation/compat@^5.1.28":
+  version "5.1.28"
+  resolved "https://registry.yarnpkg.com/@react-navigation/compat/-/compat-5.1.28.tgz#de605aaf195cd5991b01caba8678ca8dde8b2fec"
+  integrity sha512-i1zmFHOkIf7SmihUOemaDsdHjTPyDSxJTHb2mS+EKkr0eU9ERGctMnPrETRMcvRtQyTnyWqmklBZdKRjAS1r+Q==
 
 "@react-navigation/core@^5.8.2":
   version "5.8.2"
