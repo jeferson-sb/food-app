@@ -1,4 +1,5 @@
-# Food Search App
+# The Digital Diner
+
 
 Search for businesses near to you, using [Yelp API](https://yelp.com/fusion).
 
