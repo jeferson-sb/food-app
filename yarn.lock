@@ -4538,10 +4538,10 @@ react-native-safe-area-context@3.1.7:
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.1.7.tgz#fc9e636dfb168f992a2172d363509ce0611a8403"
   integrity sha512-qSyg/pVMwVPgAy8yCvw349Q+uEUhtRBV33eVXHHkfoou1vCChJxI7SmNR47/6M3BLdjWcyc4lcd018Kx+jhQCw==
 
-react-native-screens@~2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.8.0.tgz#9f989096fc5ccf248e0dfa93a74f1a64057e15f1"
-  integrity sha512-fUCIQLZX+5XB0ypWX038P3zso54IFFjTsQUZJWEsjC3pp5rPItAt5SzqtJn+uVjcJaczZ+dpIuvj6IFLqkWLZQ==
+react-native-screens@~2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.17.0.tgz#78acbcf632eefa6da341e2581eaf2de0d6db9469"
+  integrity sha512-JlCAU1tQDAhrXFI86NWvaO90ovG2gHvTfCFkW0SHoe4kZfSvZIKfGUXk8E3j6R8+1QJYLDJlZTwVsM/j70fHWQ==
 
 react-native-view-shot@3.1.2:
   version "3.1.2"
