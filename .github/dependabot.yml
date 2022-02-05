@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@react-navigation/stack"
+    versions:
+    - 5.12.8
+    - 5.14.2
+  - dependency-name: "@react-navigation/native"
+    versions:
+    - 5.8.10
+    - 5.9.2
+  - dependency-name: "@react-navigation/compat"
+    versions:
+    - 5.3.10
+    - 5.3.13
+  - dependency-name: metro-react-native-babel-preset
+    versions:
+    - 0.64.0
+    - 0.65.0
+  - dependency-name: react-native-web
+    versions:
+    - 0.14.11
+  - dependency-name: react-native-screens
+    versions:
+    - 2.17.0
+    - 2.17.1
+  - dependency-name: expo
+    versions:
+    - 40.0.0
