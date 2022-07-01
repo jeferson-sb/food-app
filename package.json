@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "babel-preset-expo": "~8.1.0",
-    "metro-react-native-babel-preset": "^0.61.0"
+    "metro-react-native-babel-preset": "^0.71.2"
   },
   "private": true
 }
